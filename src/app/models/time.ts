@@ -1,11 +1,10 @@
-// probably, unnecessary hear, but it was pretty comforable to use
+// probably, unnecessary here, but it was pretty comforable to use
 export class Time {
     protected static _instance: Time = new Time();
     private constructor() {}
-    public static getInstance(): Time{
+    public static getInstance(): Time {
         return Time._instance;
     }
-
     mseconds    :number = 0; 
     seconds     :number = 0;
     minutes     :number = 0;
